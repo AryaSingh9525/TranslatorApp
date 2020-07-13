@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B04A148C"
+    tools:context="com.example.apaar97.translate.AboutActivity">
+
+    <ImageView
+        android:id="@+id/about_yandex"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="TODO"
+        android:src="@drawable/search" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignEnd="@+id/about_yandex"
+        android:layout_alignRight="@+id/about_yandex"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/translate_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_above="@id/about_yandex"
+        android:layout_centerHorizontal="true"
+        android:text="You can Downlode this App Offline... When You Click on the Image which are given below, then link wii be open"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Arya  ******  Translator" />
+
+</RelativeLayout>
